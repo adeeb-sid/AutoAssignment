@@ -1,0 +1,177 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "I navigates to automation practice  page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6097000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am logged into automation practice with email and password",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_logged_into_automation_practice_with_email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "http://automationpractice.com/index.php",
+                  "masidd@gmaill.com",
+                  "auto1"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on accounts page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_accounts_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-22T23:06:18.896Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9865000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": ": Add items to carts",
+        "description": "",
+        "id": "shopping-cart-functionality;:-add-items-to-carts;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 640000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 210000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on woman link",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_click_on_woman_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2144000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on summer dresses",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_click_on_summer_dresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2270000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I add dress to the cart \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_add_dress_to_the_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I see dress is added to cart \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_see_dress_is_added_to_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Cart functionality",
+    "description": "  As a customer of automation practice\n  I want to add items to the shopping cart",
+    "id": "shopping-cart-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ShoppingCart.feature",
+    "tags": [
+      {
+        "name": "@ShoppingCart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

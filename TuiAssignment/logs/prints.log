@@ -1,0 +1,5 @@
+23:06:37.238 [main] DEBUG com.auto.page.InitializePage - Executing Step : I add dress to the cart
+23:06:39.508 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+23:06:39.508 [main] DEBUG com.auto.page.InitializePage - Executing Step : I see dress is added to cart
+23:06:39.509 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+23:06:39.510 [main] INFO  com.auto.page.InitializePage - Quitting driver
