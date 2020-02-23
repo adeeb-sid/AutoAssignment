@@ -16,7 +16,7 @@ Feature: Shopping Cart functionality
 	  And I add dress to the cart "<name>" "<price>"
 	  Then I see dress is added to cart "<name>" "<price>"
 	  Examples:
-	  |name                 |price  |
-	  |Printed Summer Dress |$28.98 |
-	  
+	  |name                  |price  |
+	  |Printed Summer Dress  |$28.98 |
+	  |Printed Chiffon Dress |$16.40 |
 	  

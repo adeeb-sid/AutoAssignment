@@ -37,8 +37,8 @@ public class DressesPage {
 		Actions acions = new Actions(driver);
 		acions.moveToElement(dressElement).perform();
 		
-		WebElement addToCart  = dressElement.findElement(By.xpath("//a[@title='Add to cart']"));
-		wait.until(ExpectedConditions.visibilityOf(addToCart));
+		WebElement addToCart  = driver.findElement(By.xpath("//a[@title='"+dressName+"']/following-sibling::div[@class='content_price']/span[@class='price product-price'][contains(text(),'"+shownPrice+"')]/ancestor::li//a[@title='Add to cart']"));
+		wait.until(ExpectedConditions.elementToBeClickable(addToCart));
 		addToCart.click();
 		
 		wait.until(ExpectedConditions.visibilityOf(dressElement.findElement(By.xpath("//div[@id='layer_cart'][contains(@style, 'display: block')]"))));
