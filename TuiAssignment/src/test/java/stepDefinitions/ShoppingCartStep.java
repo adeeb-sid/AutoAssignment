@@ -52,7 +52,7 @@ public class ShoppingCartStep extends InitializePage{
 		log.debug("Executing Step : I see shopping cart is empty");
 		createScenarioDefNode("Then", "I see shopping cart is empty");
 		
-		Assert.assertEquals(cartSummaryPage.getShoppingCartEmptyMessage(), config.get("shopping.cart.empty.message"));
+		Assert.assertEquals(cartSummaryPage.getShoppingCartEmptyMessage(wait), config.get("shopping.cart.empty.message"));
 		
 		log.debug("Finish Executing Step");
 	}
@@ -98,5 +98,104 @@ public class ShoppingCartStep extends InitializePage{
 		
 		log.debug("Finish Executing Step");	
 		
+	}
+	
+	@When("I add women dress {string} {string}")
+	public void i_add_women_dress(String dressName, String price) {
+		log.debug("Executing Step : I add women dress");
+		createScenarioDefNode("When", "I add women dress");
+		
+		accountsPage.getPageHeader().getCategoryMenu().moveToWomenCategory();
+		accountsPage.getPageHeader().getCategoryMenu().clickOnSummerDresses(wait);
+		Assert.assertTrue(dressesPage.getNumberOfProductsShown(wait)>0, "No dresses found");
+				
+		dressesPage.addDressToCart(dressName, price, wait);		
+		
+		log.debug("Finish Executing Step");		
+	}
+
+	@When("I am on cart summary page")
+	public void i_am_on_cart_summary_page() {
+		log.debug("Executing Step : I am on cart summary page");
+		createScenarioDefNode("When", "I am on cart summary page");
+		
+		Assert.assertEquals(getTitle(), config.get("summary.page.title"));
+		
+		log.debug("Finish Executing Step");		
+	}
+
+	@When("I see added dress  {string} {string} qunatity one")
+	public void i_see_added_dress_qunatity_one(String dressName, String price) {
+		log.debug("Executing Step : I see added dress " + dressName);
+		createScenarioDefNode("When", "I see added dress " + dressName);
+		
+		Assert.assertEquals("1", cartSummaryPage.getNumberOfAddedDressToCart(dressName, price));
+		
+		log.debug("Finish Executing Step");	
+	}
+
+	@When("I click to increase the quantity by one {string} {string}")
+	public void i_click_to_increase_the_quantity_by_one(String dressName, String price) {
+		log.debug("Executing Step : I click to increase the quantity by one");
+		createScenarioDefNode("When", "I click to increase the quantity by one ");
+		
+		cartSummaryPage.increaseDressQuantity(dressName, price);
+		
+		log.debug("Finish Executing Step");	
+	}
+
+	@Then("Qunatity is increase by one")
+	public void qunatity_is_increase_by_one() {
+		log.debug("Executing Step : Qunatity is increase by one ");
+		createScenarioDefNode("Then", "Qunatity is increase by one ");
+		
+		Assert.assertTrue( cartSummaryPage.getPageHeader().isCartQuantityEquals(wait, "2"), "Cart qunatity not increased");
+		
+		log.debug("Finish Executing Step");
+	}
+	
+	@Then("Total cost of items is")
+	public void total_cost_of_items_is( DataTable dataTable) {
+		List<Map<String, String>> total = dataTable.asMaps(String.class, String.class);
+		String totalPrice = total.get(0).get("total");
+		
+		log.debug("Executing Step :  total_cost_of_items_is " + totalPrice);
+		createScenarioDefNode("Then", "Qunatity is increase by one " + totalPrice);
+		
+		Assert.assertTrue(cartSummaryPage.getPageHeader().isTotalCartPriceEquals(wait, totalPrice), "Total price do not match");
+		
+		log.debug("Finish Executing Step");
+	}
+	
+	@When("I add item to the cart {string} {string}")
+	public void i_add_item_to_the_cart(String dressName, String price) {
+		log.debug("Executing Step : I add item to the cart " + dressName);
+		createScenarioDefNode("When", "I add item to the cart " + dressName);
+		
+		accountsPage.getPageHeader().getCategoryMenu().moveToWomenCategory();
+		accountsPage.getPageHeader().getCategoryMenu().clickOnSummerDresses(wait);
+		Assert.assertTrue(dressesPage.getNumberOfProductsShown(wait)>0, "No dresses found");
+		
+		dressesPage.addDressToCart(dressName, price, wait);
+		
+		log.debug("Finish Executing Step");
+	}
+
+	@When("I click on empty icon {string} {string}")
+	public void i_click_on_empty_icon(String dressName, String price) {
+		log.debug("Executing Step : I add item to the cart " + dressName);
+		createScenarioDefNode("When", "I add item to the cart " + dressName);
+		
+		cartSummaryPage.clickOnEmptyIcon(dressName, price);
+		
+		log.debug("Finish Executing Step");
+	}
+	
+	@Then("Cart is empty")
+	public void cart_is_empty() {
+		log.debug("Executing Step : Cart is empty");
+		createScenarioDefNode("Then", "Cart is empty");
+		
+		Assert.assertEquals(cartSummaryPage.getShoppingCartEmptyMessage(wait), config.get("shopping.cart.empty.message"));
 	}
 }

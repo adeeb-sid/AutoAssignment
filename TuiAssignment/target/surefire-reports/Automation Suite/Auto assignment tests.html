@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Auto assignment tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 23 00:28:15 GMT 2020</td>
+<td>Started on:</td><td>Sun Feb 23 16:56:52 GMT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>154 seconds (154374 ms)</td>
+<tr><td>Total time:</td><td>243 seconds (243051 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,42 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: ": Add items to carts", "Shopping Cart functionality"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[[[[[ChromeDriver: chrome on WINDOWS (c68cca534c1ed08b3eedfb1254760ae1)] -&gt; css selector: ul[class*=&apos;product_list&apos;]]] -&gt; xpath: //a[@title=&apos;Printed Chiffon Dress&apos;]/following-sibling::div[@class=&apos;content_price&apos;]/span[@class=&apos;price product-price&apos;][contains(text(),&apos;$16.40&apos;)]/ancestor::li]] -&gt; xpath: //a[@title=&apos;Add to cart&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-VDUHRSE&apos;, ip: &apos;192.168.0.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\adsid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c68cca534c1ed08b3eedfb1254760ae1
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.auto.page.DressesPage.addDressToCart(DressesPage.java:41)
-	at stepDefinitions.ShoppingCartStep.i_add_dress_to_the_cart(ShoppingCartStep.java:86)
-	at ?.I add dress to the cart &quot;Printed Chiffon Dress&quot; &quot;$16.40&quot;(file:///C:/ExceciseTu-workspace/TuiAssignment/src/test/java/features/ShoppingCart.feature:21)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1335157064", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1335157064'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[[[[[ChromeDriver: chrome on WINDOWS (c68cca534c1ed08b3eedfb1254760ae1)] -&gt; css selector: ul[class*=&apos;product_list&apos;]]] -&gt; xpath: //a[@title=&apos;Printed Chiffon Dress&apos;]/following-sibling::div[@class=&apos;content_price&apos;]/span[@class=&apos;price product-price&apos;][contains(text(),&apos;$16.40&apos;)]/ancestor::li]] -&gt; xpath: //a[@title=&apos;Add to cart&apos;]] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-VDUHRSE&apos;, ip: &apos;192.168.0.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\adsid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c68cca534c1ed08b3eedfb1254760ae1
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.auto.page.DressesPage.addDressToCart(DressesPage.java:41)
-	at stepDefinitions.ShoppingCartStep.i_add_dress_to_the_cart(ShoppingCartStep.java:86)
-	at ?.I add dress to the cart &quot;Printed Chiffon Dress&quot; &quot;$16.40&quot;(file:///C:/ExceciseTu-workspace/TuiAssignment/src/test/java/features/ShoppingCart.feature:21)
-</pre></div></td>
-<td>41</td>
-<td>cucumberOptions.TestRunner@76505305</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -113,33 +77,53 @@ Session ID: c68cca534c1ed08b3eedfb1254760ae1
 <tr>
 <td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging in with valid credentials", "Login functionality"</td>
 <td></td>
-<td>18</td>
-<td>cucumberOptions.TestRunner@76505305</td></tr>
-<tr>
-<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failed login using wrong credentials", "Login functionality"</td>
-<td></td>
-<td>16</td>
-<td>cucumberOptions.TestRunner@76505305</td></tr>
-<tr>
-<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failed login using wrong credentials", "Login functionality"</td>
-<td></td>
-<td>16</td>
-<td>cucumberOptions.TestRunner@76505305</td></tr>
+<td>24</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
 <tr>
 <td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failed login using wrong credentials", "Login functionality"</td>
 <td></td>
 <td>18</td>
-<td>cucumberOptions.TestRunner@76505305</td></tr>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
+<tr>
+<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failed login using wrong credentials", "Login functionality"</td>
+<td></td>
+<td>17</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
+<tr>
+<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failed login using wrong credentials", "Login functionality"</td>
+<td></td>
+<td>17</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
+<tr>
+<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checkout and buy item in the cart", "Checkout functionality"</td>
+<td></td>
+<td>34</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
 <tr>
 <td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify shopping cart is empty", "Shopping Cart functionality"</td>
 <td></td>
 <td>19</td>
-<td>cucumberOptions.TestRunner@76505305</td></tr>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
 <tr>
-<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: ": Add items to carts", "Shopping Cart functionality"</td>
+<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add items to carts", "Shopping Cart functionality"</td>
 <td></td>
-<td>23</td>
-<td>cucumberOptions.TestRunner@76505305</td></tr>
+<td>28</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
+<tr>
+<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add items to carts", "Shopping Cart functionality"</td>
+<td></td>
+<td>25</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
+<tr>
+<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Increase the item count in the cart", "Shopping Cart functionality"</td>
+<td></td>
+<td>26</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
+<tr>
+<td title='cucumberOptions.TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Empty cart", "Shopping Cart functionality"</td>
+<td></td>
+<td>29</td>
+<td>cucumberOptions.TestRunner@5656be13</td></tr>
 </table><p>
 </body>
 </html>

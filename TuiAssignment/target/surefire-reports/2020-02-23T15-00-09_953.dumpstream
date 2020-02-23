@@ -1,0 +1,4 @@
+# Created at 2020-02-23T15:00:10.219
+Boot Manifest-JAR contains absolute paths in classpath 'D:\GutHub\AutoAssignment-master\AutoAssignment-master\TuiAssignment\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

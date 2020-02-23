@@ -42,6 +42,9 @@ public class InitializePage {
     public static AccountsPage accountsPage = null;
     public static CartSummaryPage cartSummaryPage = null;
     public static DressesPage dressesPage = null;
+    public static AddressPage addresspage = null;
+    public static ShippingPage shippingPage = null;
+    public static PaymentPage paymentPage = null;
 
 	public void setUp(Scenario scenario) {
 
@@ -95,6 +98,9 @@ public class InitializePage {
 			accountsPage = new AccountsPage(driver);
 			cartSummaryPage = new CartSummaryPage(driver);
 			dressesPage = new DressesPage(driver);
+			addresspage = new AddressPage(driver);
+			shippingPage = new ShippingPage(driver);
+			paymentPage = new PaymentPage(driver);
 		}
 	}
 

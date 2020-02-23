@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 156.787 s <<< FAILURE! - in TestSuite
-cucumberOptions.TestRunner.runScenario  Time elapsed: 41.115 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of [[[[[[ChromeDriver: chrome on WINDOWS (c68cca534c1ed08b3eedfb1254760ae1)] -> css selector: ul[class*='product_list']]] -> xpath: //a[@title='Printed Chiffon Dress']/following-sibling::div[@class='content_price']/span[@class='price product-price'][contains(text(),'$16.40')]/ancestor::li]] -> xpath: //a[@title='Add to cart']] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-VDUHRSE', ip: '192.168.0.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\adsid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c68cca534c1ed08b3eedfb1254760ae1
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 246.72 s - in TestSuite

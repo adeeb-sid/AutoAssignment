@@ -3,6 +3,999 @@
     "line": 2,
     "elements": [
       {
+        "line": 7,
+        "name": "I navigates to automationpractice login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5835000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the url \"http://automationpractice.com/index.php\" in the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_enter_the_url_in_the_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1817000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the sign in button on landing page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_landing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_authentication_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 546000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \"Authentication\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_should_see_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T16:56:53.719Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12443000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Logging in with valid credentials",
+        "description": "",
+        "id": "login-functionality;logging-in-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 818000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I fill in email with \"masidd@gmaill.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"masidd@gmaill.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_email_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I fill in password with \"auto1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"auto1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_password_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2468000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the sign in button on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_authentication_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on accounts page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am logged in as \"Auto Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Auto Test\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_am_logged_in_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I navigates to automationpractice login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3981000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the url \"http://automationpractice.com/index.php\" in the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_enter_the_url_in_the_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1589000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the sign in button on landing page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_landing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_authentication_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 510000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \"Authentication\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_should_see_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T16:57:18.342Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9654000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-functionality;failed-login-using-wrong-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 826000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 314000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I fill in email with \"masidd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"masidd@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_email_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill in password with \"!auto1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"!auto1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_password_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the sign in button on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_authentication_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see error \"Authentication failed.\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication failed.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_should_see_error_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I navigates to automationpractice login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3370000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the url \"http://automationpractice.com/index.php\" in the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_enter_the_url_in_the_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1194000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the sign in button on landing page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_landing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_authentication_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 499000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \"Authentication\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_should_see_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T16:57:36.645Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9662000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-functionality;failed-login-using-wrong-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 780000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I fill in email with \"masidd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"masidd@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_email_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill in password with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_password_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1784000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the sign in button on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_authentication_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see error \"Password is required.\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password is required.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_should_see_error_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I navigates to automationpractice login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3470000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the url \"http://automationpractice.com/index.php\" in the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_enter_the_url_in_the_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1050000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the sign in button on landing page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_landing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_authentication_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 528000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \"Authentication\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_should_see_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T16:57:54.514Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9532000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-functionality;failed-login-using-wrong-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 830000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I fill in email with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_email_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill in password with \"auto1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"auto1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_fill_in_password_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1454000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the sign in button on authentication page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_click_on_the_sign_in_button_on_authentication_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see error \"An email address required.\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"An email address required.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.AuthenticationStep.i_should_see_error_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "  As a customer\n  In order to use automationpractice\n  I want to login with email and password",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Authentication.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "I navigates to automation practice  page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9782000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am logged into automation practice with email and password",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_logged_into_automation_practice_with_email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "http://automationpractice.com/index.php",
+                  "masidd@gmaill.com",
+                  "auto1"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on accounts page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_accounts_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T16:58:11.866Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9822000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Checkout and buy item in the cart",
+        "description": "",
+        "id": "checkout-functionality;checkout-and-buy-item-in-the-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 839000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5695000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I add item to the cart \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_add_item_to_the_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on cart summary page",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_on_cart_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I see item is added to the cart \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinitions.CheckOutCartsStep.i_see_item_is_added_to_the_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1487000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click Proceed to checkout button",
+            "match": {
+              "location": "stepDefinitions.CheckOutCartsStep.i_click_Proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on Address page",
+            "match": {
+              "location": "stepDefinitions.CheckOutCartsStep.i_am_on_Address_page_and_address_is_correct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1216000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click Proceed to checkout button on address page",
+            "match": {
+              "location": "stepDefinitions.CheckOutCartsStep.i_click_Proceed_to_checkout_button_on_address_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Iam on shipping and I agree with terms of service",
+            "match": {
+              "location": "stepDefinitions.CheckOutCartsStep.iam_on_shipping_and_I_agree_with_terms_of_service()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1225000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click Proceed to checkout button on shipping page",
+            "match": {
+              "location": "stepDefinitions.CheckOutCartsStep.i_click_Proceed_to_checkout_button_on_shipping_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1285000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on payment page and verify the product \"Printed Summer Dress\" \"$28.98\" and choose pay by check",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 67
+                }
+              ],
+              "location": "stepDefinitions.CheckOutCartsStep.i_am_on_payment_page_and_verify_the_product_and_choose_pay_by_check(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2321000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click confirm my order",
+            "match": {
+              "location": "stepDefinitions.CheckOutCartsStep.i_click_confirm_my_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see complete order message",
+            "match": {
+              "location": "stepDefinitions.CheckOutCartsStep.i_see_complete_order_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout"
+          }
+        ]
+      }
+    ],
+    "name": "Checkout functionality",
+    "description": "  As a customer of automation practice\n  I want to add the item shopping cart and\n  then buy the item in the shopping cart",
+    "id": "checkout-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Checkout.feature",
+    "tags": [
+      {
+        "name": "@Checkout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
         "line": 6,
         "name": "I navigates to automation practice  page",
         "description": "",
@@ -11,7 +1004,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7709000000,
+              "duration": 7512000000,
               "status": "passed"
             },
             "line": 7,
@@ -39,7 +1032,7 @@
           },
           {
             "result": {
-              "duration": 17000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 10,
@@ -52,11 +1045,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-02-23T01:02:02.817Z",
+        "start_timestamp": "2020-02-23T16:58:46.084Z",
         "before": [
           {
             "result": {
-              "duration": 10504000000,
+              "duration": 9656000000,
               "status": "passed"
             },
             "match": {
@@ -64,14 +1057,137 @@
             }
           }
         ],
-        "line": 20,
-        "name": ": Add items to carts",
+        "line": 12,
+        "name": "Verify shopping cart is empty",
         "description": "",
-        "id": "shopping-cart-functionality;:-add-items-to-carts;;2",
+        "id": "shopping-cart-functionality;verify-shopping-cart-is-empty",
         "after": [
           {
             "result": {
-              "duration": 744000000,
+              "duration": 904000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1549000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on cart link",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_click_on_cart_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on shopping cart summary page",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_on_shopping_cart_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I see shopping cart is empty",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_see_shopping_cart_is_empty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "I navigates to automation practice  page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10667000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am logged into automation practice with email and password",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_logged_into_automation_practice_with_email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "http://automationpractice.com/index.php",
+                  "masidd@gmaill.com",
+                  "auto1"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on accounts page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_accounts_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T16:59:05.833Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9611000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Add items to carts",
+        "description": "",
+        "id": "shopping-cart-functionality;add-items-to-carts;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 836000000,
               "status": "passed"
             },
             "match": {
@@ -84,10 +1200,10 @@
         "steps": [
           {
             "result": {
-              "duration": 174000000,
+              "duration": 181000000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 18,
             "name": "I click on woman link",
             "match": {
               "location": "stepDefinitions.ShoppingCartStep.i_click_on_woman_link()"
@@ -96,10 +1212,10 @@
           },
           {
             "result": {
-              "duration": 2653000000,
+              "duration": 4432000000,
               "status": "passed"
             },
-            "line": 15,
+            "line": 19,
             "name": "I click on summer dresses",
             "match": {
               "location": "stepDefinitions.ShoppingCartStep.i_click_on_summer_dresses()"
@@ -108,10 +1224,10 @@
           },
           {
             "result": {
-              "duration": 2307000000,
+              "duration": 2953000000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 20,
             "name": "I add dress to the cart \"Printed Summer Dress\" \"$28.98\"",
             "match": {
               "arguments": [
@@ -130,10 +1246,10 @@
           },
           {
             "result": {
-              "duration": 41000000,
+              "duration": 34000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 21,
             "name": "I see dress is added to cart \"Printed Summer Dress\" \"$28.98\"",
             "match": {
               "arguments": [
@@ -166,7 +1282,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7755000000,
+              "duration": 9724000000,
               "status": "passed"
             },
             "line": 7,
@@ -194,7 +1310,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 10,
@@ -207,11 +1323,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-02-23T01:02:27.011Z",
+        "start_timestamp": "2020-02-23T16:59:34.570Z",
         "before": [
           {
             "result": {
-              "duration": 9457000000,
+              "duration": 9602000000,
               "status": "passed"
             },
             "match": {
@@ -219,14 +1335,14 @@
             }
           }
         ],
-        "line": 21,
-        "name": ": Add items to carts",
+        "line": 25,
+        "name": "Add items to carts",
         "description": "",
-        "id": "shopping-cart-functionality;:-add-items-to-carts;;3",
+        "id": "shopping-cart-functionality;add-items-to-carts;;3",
         "after": [
           {
             "result": {
-              "duration": 750000000,
+              "duration": 845000000,
               "status": "passed"
             },
             "match": {
@@ -239,10 +1355,10 @@
         "steps": [
           {
             "result": {
-              "duration": 181000000,
+              "duration": 164000000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 18,
             "name": "I click on woman link",
             "match": {
               "location": "stepDefinitions.ShoppingCartStep.i_click_on_woman_link()"
@@ -251,10 +1367,10 @@
           },
           {
             "result": {
-              "duration": 2779000000,
+              "duration": 2601000000,
               "status": "passed"
             },
-            "line": 15,
+            "line": 19,
             "name": "I click on summer dresses",
             "match": {
               "location": "stepDefinitions.ShoppingCartStep.i_click_on_summer_dresses()"
@@ -263,10 +1379,10 @@
           },
           {
             "result": {
-              "duration": 2787000000,
+              "duration": 2455000000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 20,
             "name": "I add dress to the cart \"Printed Chiffon Dress\" \"$16.40\"",
             "match": {
               "arguments": [
@@ -285,10 +1401,10 @@
           },
           {
             "result": {
-              "duration": 46000000,
+              "duration": 51000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 21,
             "name": "I see dress is added to cart \"Printed Chiffon Dress\" \"$16.40\"",
             "match": {
               "arguments": [
@@ -302,6 +1418,362 @@
                 }
               ],
               "location": "stepDefinitions.ShoppingCartStep.i_see_dress_is_added_to_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "I navigates to automation practice  page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7781000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am logged into automation practice with email and password",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_logged_into_automation_practice_with_email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "http://automationpractice.com/index.php",
+                  "masidd@gmaill.com",
+                  "auto1"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on accounts page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_accounts_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T17:00:00.032Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9635000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Increase the item count in the cart",
+        "description": "",
+        "id": "shopping-cart-functionality;increase-the-item-count-in-the-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 878000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6280000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I add women dress \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_add_women_dress(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on cart summary page",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_on_cart_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I see added dress  \"Printed Summer Dress\" \"$28.98\" qunatity one",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_see_added_dress_qunatity_one(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click to increase the quantity by one \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 63
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_click_to_increase_the_quantity_by_one(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1231000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Qunatity is increase by one",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.qunatity_is_increase_by_one()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 326000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Total cost of items is",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.total_cost_of_items_is(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "total"
+                ]
+              },
+              {
+                "cells": [
+                  "$59.96"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "I navigates to automation practice  page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10605000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am logged into automation practice with email and password",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_logged_into_automation_practice_with_email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "http://automationpractice.com/index.php",
+                  "masidd@gmaill.com",
+                  "auto1"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on accounts page",
+            "match": {
+              "location": "stepDefinitions.AuthenticationStep.i_am_on_accounts_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-23T17:00:26.379Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9624000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Empty cart",
+        "description": "",
+        "id": "shopping-cart-functionality;empty-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 871000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5635000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I add item to the cart \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_add_item_to_the_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I am on cart summary page",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.i_am_on_cart_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on empty icon \"Printed Summer Dress\" \"$28.98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Summer Dress\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"$28.98\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.ShoppingCartStep.i_click_on_empty_icon(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2259000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Cart is empty",
+            "match": {
+              "location": "stepDefinitions.ShoppingCartStep.cart_is_empty()"
             },
             "keyword": "Then "
           }

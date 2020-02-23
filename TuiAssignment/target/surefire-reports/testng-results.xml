@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Suite" duration-ms="154374" started-at="2020-02-23T00:28:15 GMT" finished-at="2020-02-23T00:30:50 GMT">
+  <suite name="Automation Suite" duration-ms="243051" started-at="2020-02-23T16:56:52 GMT" finished-at="2020-02-23T17:00:55 GMT">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Auto assignment tests" duration-ms="154374" started-at="2020-02-23T00:28:15 GMT" finished-at="2020-02-23T00:30:50 GMT">
+    <test name="Auto assignment tests" duration-ms="243051" started-at="2020-02-23T16:56:52 GMT" finished-at="2020-02-23T17:00:55 GMT">
       <class name="cucumberOptions.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="setUpClass" is-config="true" duration-ms="186" started-at="2020-02-23T00:28:16 GMT" finished-at="2020-02-23T00:28:16 GMT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="setUpClass" is-config="true" duration-ms="306" started-at="2020-02-23T16:56:52 GMT" finished-at="2020-02-23T16:56:53 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" duration-ms="18339" started-at="2020-02-23T00:28:16 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T00:28:34 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="24803" started-at="2020-02-23T16:56:53 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T16:57:18 GMT">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" duration-ms="16795" started-at="2020-02-23T00:28:34 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T00:28:51 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="18305" started-at="2020-02-23T16:57:18 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T16:57:36 GMT">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" duration-ms="16785" started-at="2020-02-23T00:28:51 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T00:29:08 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="17871" started-at="2020-02-23T16:57:36 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T16:57:54 GMT">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" duration-ms="18064" started-at="2020-02-23T00:29:08 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T00:29:26 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="17323" started-at="2020-02-23T16:57:54 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T16:58:11 GMT">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" duration-ms="19405" started-at="2020-02-23T00:29:26 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T00:29:45 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="34233" started-at="2020-02-23T16:58:11 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T16:58:46 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout and buy item in the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="19755" started-at="2020-02-23T16:58:46 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T16:59:05 GMT">
           <params>
             <param index="0">
               <value>
@@ -94,11 +110,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" duration-ms="23075" started-at="2020-02-23T00:29:45 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T00:30:08 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="28736" started-at="2020-02-23T16:59:05 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T16:59:34 GMT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[": Add items to carts"]]>
+                <![CDATA["Add items to carts"]]>
               </value>
             </param>
             <param index="1">
@@ -110,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="runScenario" duration-ms="41080" started-at="2020-02-23T00:30:08 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T00:30:50 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="25464" started-at="2020-02-23T16:59:34 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T17:00:00 GMT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[": Add items to carts"]]>
+                <![CDATA["Add items to carts"]]>
               </value>
             </param>
             <param index="1">
@@ -123,34 +139,42 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[[[[[ChromeDriver: chrome on WINDOWS (c68cca534c1ed08b3eedfb1254760ae1)] -> css selector: ul[class*='product_list']]] -> xpath: //a[@title='Printed Chiffon Dress']/following-sibling::div[@class='content_price']/span[@class='price product-price'][contains(text(),'$16.40')]/ancestor::li]] -> xpath: //a[@title='Add to cart']] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-VDUHRSE', ip: '192.168.0.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\adsid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c68cca534c1ed08b3eedfb1254760ae1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[[[[[ChromeDriver: chrome on WINDOWS (c68cca534c1ed08b3eedfb1254760ae1)] -> css selector: ul[class*='product_list']]] -> xpath: //a[@title='Printed Chiffon Dress']/following-sibling::div[@class='content_price']/span[@class='price product-price'][contains(text(),'$16.40')]/ancestor::li]] -> xpath: //a[@title='Add to cart']] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-VDUHRSE', ip: '192.168.0.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\adsid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c68cca534c1ed08b3eedfb1254760ae1
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.auto.page.DressesPage.addDressToCart(DressesPage.java:41)
-at stepDefinitions.ShoppingCartStep.i_add_dress_to_the_cart(ShoppingCartStep.java:86)
-at ✽.I add dress to the cart "Printed Chiffon Dress" "$16.40"(file:///C:/ExceciseTu-workspace/TuiAssignment/src/test/java/features/ShoppingCart.feature:21)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@76505305]" name="tearDownClass" is-config="true" duration-ms="258" started-at="2020-02-23T00:30:50 GMT" finished-at="2020-02-23T00:30:50 GMT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="26343" started-at="2020-02-23T17:00:00 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T17:00:26 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Increase the item count in the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="runScenario" duration-ms="29125" started-at="2020-02-23T17:00:26 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-23T17:00:55 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Empty cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@5656be13]" name="tearDownClass" is-config="true" duration-ms="270" started-at="2020-02-23T17:00:55 GMT" finished-at="2020-02-23T17:00:55 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
