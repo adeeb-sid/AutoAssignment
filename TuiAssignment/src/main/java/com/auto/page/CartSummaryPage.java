@@ -27,7 +27,7 @@ public class CartSummaryPage {
 	
 	public String getNumberOfAddedDressToCart(String dressName, String price) {
 		WebElement element = driver.findElement(By.xpath(
-				"//a[text()='"+dressName+"']/ancestor::tr//span/span[@class='price'][contains(text(),'"+price+"')]/ancestor::tr//td[contains(@class, 'cart_quantity')]/input[@type='hidden']"));
+				"//a[text()='"+dressName+"']/ancestor::tr/td[@class='cart_unit']/span/span[contains(@class, 'special-price')][contains(text(),'"+price+"')]/ancestor::tr//td[contains(@class, 'cart_quantity')]/input[@type='hidden']"));
 		return element.getAttribute("value");
 	}
 

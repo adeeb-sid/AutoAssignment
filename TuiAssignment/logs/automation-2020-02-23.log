@@ -1,0 +1,6 @@
+00:00:55.607 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+00:00:55.616 [main] DEBUG com.auto.page.InitializePage - Executing Step : I am on accounts page
+00:00:55.629 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+00:00:55.629 [main] DEBUG com.auto.page.InitializePage - Executing Step : I click on woman link
+00:00:55.836 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+00:00:55.837 [main] DEBUG com.auto.page.InitializePage - Executing Step : I click on summer dresses

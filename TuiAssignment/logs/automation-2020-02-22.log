@@ -1,6 +1,6 @@
-23:06:34.864 [main] DEBUG com.auto.page.InitializePage - Executing Step : I am on accounts page
-23:06:34.883 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
-23:06:34.884 [main] DEBUG com.auto.page.InitializePage - Executing Step : I click on woman link
-23:06:35.093 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
-23:06:35.094 [main] DEBUG com.auto.page.InitializePage - Executing Step : I click on summer dresses
-23:06:37.238 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+23:49:18.685 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+23:49:18.689 [main] DEBUG com.auto.page.InitializePage - Executing Step : I click on woman link
+23:49:18.895 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+23:49:18.895 [main] DEBUG com.auto.page.InitializePage - Executing Step : I click on summer dresses
+23:49:20.993 [main] DEBUG com.auto.page.InitializePage - Finish Executing Step
+23:49:20.994 [main] DEBUG com.auto.page.InitializePage - Executing Step : I add dress to the cart

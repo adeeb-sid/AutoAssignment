@@ -90,10 +90,11 @@ public class ShoppingCartStep extends InitializePage{
 	}
 
 	@Then("I see dress is added to cart {string} {string}")
-	public void i_see_dress_is_added_to_cart(String name, String price) {
+	public void i_see_dress_is_added_to_cart(String dressName, String price) {
 		log.debug("Executing Step : I see dress is added to cart");
 		createScenarioDefNode("Then", "I see dress is added to cart");
 		
+		Assert.assertEquals("1", cartSummaryPage.getNumberOfAddedDressToCart(dressName, price));
 		
 		log.debug("Finish Executing Step");	
 		

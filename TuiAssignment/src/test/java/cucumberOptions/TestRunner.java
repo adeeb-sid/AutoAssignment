@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/java/features",
         glue = {"classpath:stepDefinitions"},
-        tags = {"@ShoppingCart"},
+        //tags = {"@ShoppingCart"},
         plugin = {"pretty",
                 "json:target/cucumber.json",
                 "rerun:target/cucumber-reports/rerun.txt"
